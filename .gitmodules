@@ -1,0 +1,3 @@
+[submodule "src/tsp"]
+	path = src/tsp
+	url = git@github.com:Ericmzhang/tsp_visualizer.git
