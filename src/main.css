@@ -118,6 +118,8 @@ input, select, textarea {
 	body {
 		background-color: #0c1f7e;
 		color: rgba(255, 255, 255, 0.65);
+
+		
 	}
 
 	body, input, select, textarea {
@@ -3797,3 +3799,4 @@ input, select, textarea {
 	height: 400px;
 	width: 400px;
 }
+
