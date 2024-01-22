@@ -3796,7 +3796,33 @@ input, select, textarea {
 }
 
 .project-img{
-	height: 400px;
-	width: 400px;
+	height: 300px;
+	width: 300px;
+}
+
+.flex{
+	display:flex
+}
+
+.text-center{
+	text-align: center;
+}
+
+.video{
+	display:block;
+	margin:auto;
+}
+
+.text-container{
+	width: 60%;
+    margin: 0 auto;
+}
+
+.margin-left{
+	margin-left:15px;
+}
+
+.margin-auto{
+	margin:auto;
 }
 

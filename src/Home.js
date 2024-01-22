@@ -44,6 +44,8 @@ function Home() {
 										<h3>Relevant Coursework</h3>
 										<ul className ="two-column-list">
 											<li>Data Structures and Algorithms</li>
+											<li>Machine Learning</li>
+											<li>Operating Systems</li>
 											<li>Computer Architecture</li>
 											<li>Theory of Computer Science</li>
 											<li>Software Engineering</li>
@@ -67,17 +69,20 @@ function Home() {
 								</header>
 								<ul className="features">
 									<li>
-										<span className="icon solid major style1 fa-code"></span>
+										
+										<img className = "project-img" src="ISO_C++_Logo.svg.png"></img>
 										<h3>C/C++</h3>
 										<p></p>
 									</li>
 									<li>
-										<span className="icon major style3 fa-copy"></span>
+										
+										<img className = "project-img" src ="Python-logo-notext.svg.png"></img>
 										<h3>Python</h3>
 										<p></p>
 									</li>
 									<li>
-										<span className="icon major style5 fa-gem"></span>
+									
+										<img className = "project-img" src = "html.jpg"></img>
 										<h3>HTML/CSS/JavaScript</h3>
 										<p></p>
 									</li>
@@ -98,26 +103,56 @@ function Home() {
 								<ul className="features">
 									<li>
 										<Link to ="/tsp"><img src="tsp.png" className='project-img'></img></Link>
-										<h3>Traveling Salesperson Visualizer</h3>
+										<div >
+											<Link to ="/tsp"><h3>TSP Visualizer</h3></Link>
+											<a href="https://github.com/Ericmzhang/tsp_visualizer" target ="_blank"><img className="header-icon" src="github.png"></img></a>
+										</div>
+										
 										<p>An online visualizer that from (x,y) coordinates, graphs the optimal solution and a random insersetion heuristic solution to the traveling salesperson problem. Takes inputs in the form of manual inputs and txt files</p>
 										<p className='languages'>C++/HTML/CSS/JavaScript</p>
 									</li>
 									<li>
-										<span className="icon major style3 fa-copy"></span>
-										<h3>Python</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										
+										<Link to ="/drone"><img src="drone.png" className='project-img'></img></Link>
+										<div>
+											<Link to ="/drone"><h3>Autonomous Drone Controller</h3></Link>
+											<a href="https://github.com/Ericmzhang/FlightController" target ="_blank"><img className="header-icon" src="github.png"></img></a>
+										</div>
+										
+										
+										<p>Collaborated with a team to implement a PID flight controller capable of maintaining the drone’s
+altitude within a 1 meter margin and detecting and avoiding obstacles at a rate above 98 percent</p>
+										<p className='languages'>Python</p>
 									</li>
 									<li>
-										<span className="icon major style5 fa-gem"></span>
-										<h3>HTML/CSS/JavaScript</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										
+<Link to ="/drone"><img src="piazza.png" className='project-img'></img></Link>
+										<div>
+											<Link to ="/tbd"><h3 > Post Topic Identifier</h3></Link>
+											<a href="https://github.com/Ericmzhang/FlightController" target ="_blank"><img className="header-icon" src="github.png"></img></a>
+											
+										</div>
+										
+										
+										<p>Implemented a Naive-Bayes classifier to identify the subject of posts in online question-answer
+forum Piazza, achieving an accuracy of over 85 percent</p>
+										<p className='languages'>C++</p>
 									</li>
+									<li>
+										<Link to ="/tbd"><img src="euchre.PNG" className='project-img'></img></Link>
+										<div>
+											<Link to ="/tsp"><h3>Euchre</h3></Link>
+											<a  target ="_blank"><img className="header-icon" src="github.png"></img></a>
+										</div>
+										
+										<p>A simple simulator of Euchre, a midwestern trick taking card game.</p>
+										<p className='languages'>C++</p>
+									</li>
+									
 								</ul>
-								<footer className="major">
-									<ul className="actions special">
-										<li><a href="generic.html" className="button">Learn More</a></li>
-									</ul>
-								</footer>
+
+								
+								
 							</section>
 
 				
@@ -126,7 +161,7 @@ function Home() {
 					</div>
 
 			
-					<footer id="contact ">
+					<footer id="contact">
 						<section>
 							<h2>Contact Me</h2>
 							<dl className="alt">
