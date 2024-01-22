@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.24ff82ef.css",
-    "main.js": "/static/js/main.655f191c.js",
+    "main.js": "/static/js/main.91bd3f61.js",
     "static/js/111.4d260afb.chunk.js": "/static/js/111.4d260afb.chunk.js",
     "static/media/eric_zhang.png": "/static/media/eric_zhang.539a1720677fc72ea99f.png",
     "index.html": "/index.html",
     "main.24ff82ef.css.map": "/static/css/main.24ff82ef.css.map",
-    "main.655f191c.js.map": "/static/js/main.655f191c.js.map",
+    "main.91bd3f61.js.map": "/static/js/main.91bd3f61.js.map",
     "111.4d260afb.chunk.js.map": "/static/js/111.4d260afb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24ff82ef.css",
-    "static/js/main.655f191c.js"
+    "static/js/main.91bd3f61.js"
   ]
 }
