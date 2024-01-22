@@ -108,7 +108,7 @@ function Home() {
 											<a href="https://github.com/Ericmzhang/tsp_visualizer" target ="_blank"><img className="header-icon" src="github.png"></img></a>
 										</div>
 										
-										<p>An online visualizer that from (x,y) coordinates, graphs the optimal solution and a random insersetion heuristic solution to the traveling salesperson problem. Takes inputs in the form of manual inputs and txt files</p>
+										<p>An online visualization tool designed to tackle the Traveling Salesperson Problem (TSP). This tool plots both the optimal solution and a solution derived from a random insertion heuristic (work in progress), directly from (x,y) coordinate inputs. It supports manual entry or uploading text files.</p>
 										<p className='languages'>C++/HTML/CSS/JavaScript</p>
 									</li>
 									<li>
