@@ -37,7 +37,7 @@ function Home() {
             </a>
           </li>
           <li>
-            <a href="Eric_Zhang_Resume.pdf" target="_blank" className="icon">
+            <a href="Eric_Zhang_Resume_26.pdf" target="_blank" className="icon">
               <img
                 src="resume.png"
                 className="header-icon"
@@ -77,25 +77,30 @@ function Home() {
               <h3>Hi I'm Eric Zhang</h3>
               <p>
                 I am an undergraduate computer science student at the University
-                of Michigan expected to grauduate in spring 2025. I am
-                passionate about new innovations and creating meaningful impact.
-                My hobbies include soccer, basketball, and the saxophone
+                of Michigan expected to grauduate in May 2026.</p>
+                <p> My interests include Operating Systems, Distributed Systems, and Computer Architecture.
+                  </p>
+                <p> 
+                   My hobbies include soccer, basketball, and the saxophone
               </p>
               <h3>Relevant Coursework</h3>
               <ul className="two-column-list">
                 <li>Data Structures and Algorithms</li>
-                <li>Machine Learning</li>
                 <li>Operating Systems</li>
+                <li>Machine Learning</li>
                 <li>Computer Architecture</li>
+                <li>Distirbuted Systems</li>
+                <li>Embedded Systems</li>
+                <li>Computer Vision</li>
+                <li>Computer Networks</li>
                 <li>Theory of Computer Science</li>
-                <li>Software Engineering</li>
                 <li>Discrete Mathematics</li>
                 <li>Linear Algebra</li>
               </ul>
               <ul className="actions">
                 <li>
                   <a
-                    href="Eric_Zhang_Resume.pdf"
+                    href="Eric_Zhang_Resume_26.pdf"
                     className="button"
                     target="_blank"
                   >
@@ -143,6 +148,16 @@ function Home() {
               <h3>HTML/CSS/JavaScript</h3>
               <p></p>
             </li>
+            <li>
+              <img className="project-img" src="dflipflop.jpg"></img>
+              <h3>Verilog</h3>
+              <p></p>
+            </li>
+            <li>
+              <img className="project-img" src="golang.png"></img>
+              <h3>Golang</h3>
+              <p></p>
+            </li>
           </ul>
           {/* <footer className="major">
 									<ul className="actions special">
@@ -156,7 +171,26 @@ function Home() {
             <h2>Projects</h2>
           </header>
           <ul className="features">
-		  <li>
+            <li>
+              <a href="risc_v_report.pdf">
+                <img src="riscv_diagram.png" className="project-img"></img>
+              </a>
+              <div>
+                <a href="risc_v_report.pdf">
+                  <h3>Out-of-Order RISC-V Processor</h3>
+                </a>
+                <p className="languages">System Verilog</p>
+				        <Link to="tbd">
+                  <img className="header-icon" src="github.png"></img>
+                </Link>
+              </div>
+              <p>
+              A RISC-V processor with out-of-order & N-way superscalar execution, early tag broadcast, fast
+              branch recovery, early branch resolution, store queue, non-blocking data cache, Gshare branch prediction,
+              and instruction prefetching. Achieved 11.5ns clock period and average 1.3 CPI
+              </p>
+            </li>
+		        <li>
               <Link to="/tbd">
                 <img src="file_server.png" className="project-img"></img>
               </Link>
@@ -164,7 +198,8 @@ function Home() {
                 <Link to="/tbd">
                   <h3>Multi-thread File Server</h3>
                 </Link>
-				<Link to="tbd">
+                <p className="languages">C++</p>
+				        <Link to="tbd">
                   <img className="header-icon" src="github.png"></img>
                 </Link>
               </div>
@@ -172,7 +207,43 @@ function Home() {
               <p>
                 A thread-safe file server using upgradable reader/writer locks and TCP sockets. Allows users to manage files and directories via network messages.
               </p>
-              <p className="languages">C++/HTML/CSS/JavaScript</p>
+            </li>
+            <li>
+              <Link to="/tbd">
+                <img src="virtual_mem.png" className="project-img"></img>
+              </Link>
+              <div>
+                <Link to="/tbd">
+                  <h3>Virtual Memory Pager | C++</h3>
+                </Link>
+                <p className="languages">C++</p>
+                <Link to="tbd">
+                  <img className="header-icon" src="github.png"></img>
+                </Link>
+              </div>
+              <p>
+              A virtual memory pager in C++ that supports swap-backed and file-backed pages for multiple
+              processes and manages page faults, process creation, forking, and process destruction
+              </p>
+            </li>
+			<li>
+              <Link to="/tbd">
+                <img src="threads.png" className="project-img"></img>
+              </Link>
+              <div>
+                <Link to="/tbd">
+                  <h3>Thread Library</h3>
+                </Link>
+                <p className="languages">C++</p>
+                <Link to="tbd">
+                  <img className="header-icon" src="github.png"></img>
+                </Link>
+              </div>
+              <p>
+              A kernel-level C++ thread library using UNIX contexts for thread lifecycle management, CPU
+              booting, and interrupt handling, including synchronization primitives such as mutexes, condition
+              variables, and spinlocks
+              </p>
             </li>
             <li>
               <Link to="/tsp">
@@ -182,6 +253,7 @@ function Home() {
                 <Link to="/tsp">
                   <h3>TSP Visualizer</h3>
                 </Link>
+                <p className="languages">C++/HTML/CSS/JavaScript</p>
                 <a
                   href="https://github.com/Ericmzhang/tsp_visualizer"
                   target="_blank"
@@ -197,7 +269,6 @@ function Home() {
                 heuristic (work in progress), directly from (x,y) coordinate
                 inputs. It supports manual entry or uploading text files.
               </p>
-              <p className="languages">C++/HTML/CSS/JavaScript</p>
             </li>
             <li>
               <Link to="/tbd">
@@ -207,6 +278,7 @@ function Home() {
                 <Link to="/tbd">
                   <h3> Post Topic Identifier</h3>
                 </Link>
+                <p className="languages">C++</p>
                 <Link to="tbd">
                   <img className="header-icon" src="github.png"></img>
                 </Link>
@@ -217,7 +289,6 @@ function Home() {
                 posts in online question-answer forum Piazza, achieving an
                 accuracy of over 85 percent
               </p>
-              <p className="languages">C++</p>
             </li>
 			<li>
               <Link to="/drone">
@@ -227,6 +298,7 @@ function Home() {
                 <Link to="/drone">
                   <h3>Autonomous Drone Controller</h3>
                 </Link>
+                <p className="languages">Python</p>
                 <a
                   href="https://github.com/Ericmzhang/FlightController"
                   target="_blank"
@@ -241,42 +313,6 @@ function Home() {
                 margin and detecting and avoiding obstacles at a rate above 98
                 percent
               </p>
-              <p className="languages">Python</p>
-            </li>
-			<li>
-              <Link to="/tbd">
-                <img src="virtual_mem.png" className="project-img"></img>
-              </Link>
-              <div>
-                <Link to="/tbd">
-                  <h3>Virtual Memory Pager</h3>
-                </Link>
-                <Link to="tbd">
-                  <img className="header-icon" src="github.png"></img>
-                </Link>
-              </div>
-              <p>
-				A virtual memory pager supporting swap-backed and file-backed pages for multiple processess.
-              </p>
-              <p className="languages">C++</p>
-            </li>
-			<li>
-              <Link to="/tbd">
-                <img src="threads.png" className="project-img"></img>
-              </Link>
-              <div>
-                <Link to="/tbd">
-                  <h3>Thread Library</h3>
-                </Link>
-                <Link to="tbd">
-                  <img className="header-icon" src="github.png"></img>
-                </Link>
-              </div>
-              <p>
-			  	A multi-processor-capable thread library in C++ with 4 class interfaces: cpu, thread,
-				mutex, and cv.
-              </p>
-              <p className="languages">C++</p>
             </li>
             <li>
               <Link to="/tbd">
@@ -286,6 +322,7 @@ function Home() {
                 <Link to="/tbd">
                   <h3>Euchre</h3>
                 </Link>
+                <p className="languages">C++</p>
                 <Link to="tbd">
                   <img className="header-icon" src="github.png"></img>
                 </Link>
@@ -295,7 +332,6 @@ function Home() {
                 A simple simulator of Euchre, a midwestern trick taking card
                 game.
               </p>
-              <p className="languages">C++</p>
             </li>
           </ul>
         </section>
@@ -342,7 +378,7 @@ function Home() {
               </a>
             </li>
             <li>
-              <a href="Eric_Zhang_Resume.pdf" target="_blank" className="icon">
+              <a href="Eric_Zhang_Resume_26.pdf" target="_blank" className="icon">
                 <img
                   src="resume.png"
                   className="header-icon"
