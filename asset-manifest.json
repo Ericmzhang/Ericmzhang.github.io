@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b33b660b.css",
+    "main.js": "/static/js/main.98178965.js",
+    "static/js/111.4d260afb.chunk.js": "/static/js/111.4d260afb.chunk.js",
+    "static/media/eric_zhang.png": "/static/media/eric_zhang.539a1720677fc72ea99f.png",
+    "index.html": "/index.html",
+    "main.b33b660b.css.map": "/static/css/main.b33b660b.css.map",
+    "main.98178965.js.map": "/static/js/main.98178965.js.map",
+    "111.4d260afb.chunk.js.map": "/static/js/111.4d260afb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b33b660b.css",
+    "static/js/main.98178965.js"
+  ]
+}
